@@ -1,0 +1,137 @@
+body {
+    font-family: Cormorant, serif;
+}
+
+h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+nav.links {
+    display: inline-block;
+}
+
+.links ul {
+    padding: 0;
+    margin-left: 32px;
+}
+
+.links li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.active {
+    border-bottom: 1px solid black;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    margin: 30px;
+}
+
+.card img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card img:hover {
+    opacity: 95%;
+}
+
+.card h2 {
+    font-weight: 300;
+    font-size: 25px;
+    margin: 8px 0 16px 0;
+    display: inline-block;
+}
+
+div.card {
+    width: 49%;
+    padding: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.gallery {
+    padding: 16px;
+}
+
+.about h3 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+section.about {
+    width: 40%;
+    min-width: 600px;
+    margin: 70px 0 100px 150px;
+}
+
+div.contact {
+    margin-top: 90px;
+}
+
+.contact p {
+    margin: 0;
+    font-size: 20px;
+}
+
+h3.cta {
+    display: inline-block;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 1100px) {
+    div.card {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        padding: 0.5rem;
+    }
+
+    div.card {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .navbar {
+        margin: 1rem;
+    }
+
+    .links ul {
+        margin: 0 0 0 3rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    section.gallery {
+        padding: 0;
+    }
+
+    section.about {
+        margin: 0 auto 100px auto;
+        min-width: 450px;
+    }
+
+    .about h3 {
+        margin: 0;
+    }
+}
